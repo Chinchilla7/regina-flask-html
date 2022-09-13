@@ -8,11 +8,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def homepage():
-    return render_template('p1_homepage_noCSS.html')
+    return render_template('homepage.html')
 
-@app.route('/styled')
-def homepage_styles():
-    return render_template('p2_homepage_withCSS.html')
+@app.route('/contactus')
+def contact_page():
+    return render_template('contact.html')
     # import to note that it is going to look for the .html files in a folder called templates
 
 @app.route('/styled_layout')
