@@ -21,7 +21,12 @@ nav ul {
 list-style-type: none;
 padding: 0;
 }
-  
+
+ /* this is the code that would style ALL buttons */
+button { 
+  background-color: rgb(199, 129, 186);
+} 
+
 article {
 float: left;
 padding: 20px;
