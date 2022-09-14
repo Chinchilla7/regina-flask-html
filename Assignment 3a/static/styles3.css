@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    color: white;
+  }
+  /* Style the header */
+  header {
+      background-color: rgb(161, 69, 144);
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+    
+  /* Create two columns/boxes that floats next to each other */
+  nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: rgb(255, 253, 253);
+  padding: 20px;
+  }
+    
+  /* Style the list inside the menu */
+  nav ul {
+  list-style-type: none;
+  padding: 0;
+  }
+  
+   /* this is the code that would style ALL buttons */
+  button { 
+    background-color: rgb(161, 69, 144);
+  } 
+  /* this is create a custom style that will only be applied to a 'class' called specialButton1 */
+  .specialButton1 {
+    background-color: #d097c7;
+    color: #ffffff;
+  }
+  article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+  }
+    
+  /* Clear floats after the columns */
+  section::after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+  
+  /* Style the footer */
+  footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: rgb(161, 69, 144)e;
+  }
