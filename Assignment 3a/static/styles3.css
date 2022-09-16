@@ -55,8 +55,8 @@ body {
   
   /* Style the footer */
   footer {
-  background-color: #777;
+  background-color: rgb(161, 69, 144);
   padding: 10px;
   text-align: center;
-  color: rgb(161, 69, 144);
+  color: white;
   }
