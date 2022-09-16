@@ -30,7 +30,8 @@ body {
   
    /* this is the code that would style ALL buttons */
   button { 
-    background-color: rgb(161, 69, 144);
+    background-color: rgb(161, 69, 144); 
+    color: #ffffff;
   } 
   /* this is create a custom style that will only be applied to a 'class' called specialButton1 */
   .specialButton1 {
@@ -41,7 +42,7 @@ body {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #f1f1f1;
+  background-color: #b3b3b3;
   height: 300px; /* only for demonstration, should be removed */
   }
     
