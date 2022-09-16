@@ -9,7 +9,7 @@ def home_page():
 @app.route('/contactus')
 def contact_page():
     return render_template('contact.html')
-    # import to note that it is going to look for the .html files in a folder called templates
+    
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=80)
