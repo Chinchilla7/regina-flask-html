@@ -25,7 +25,7 @@ padding: 20px;
 /* Style the list inside the menu */
 nav ul {
 list-style-type: none;
-padding: 0;
+padding: 1;
 color:rgb(199, 129, 186);
 }
  /* this is the code that would style ALL buttons */
