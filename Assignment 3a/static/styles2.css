@@ -28,7 +28,7 @@ list-style-type: none;
 padding: 0;
 }
 li {
-  color:rgb(199, 129, 186)
+  color:rgb(199, 129, 186);
 }
  /* this is the code that would style ALL buttons */
 button { 
